@@ -3,13 +3,13 @@
 	"id": "tutorial",
 	"version": "${version}",
 	"name": "Tutorial Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a fabric mod",
 	"authors": [
-		"Me!"
+		"XingCi"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Memory2026/Tutorial-26.1-Fabric"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/tutorial/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.xingci.tutorial.TutorialModDataGenerator"
+		],
+		"client": [
+			"com.xingci.tutorial.TutorialModClient"
 		]
 	},
 	"mixins": [
@@ -32,3 +35,5 @@
 		"fabric-api": "*"
 	}
 }
+
+
